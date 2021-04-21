@@ -11,6 +11,7 @@ logger.error(new Errro('error test'));
 ```
 ## 自定义log level,log out diretory，是否生成 err*.log
 > 无配置文件时默认 level=‘info’，out diretory=‘./log’ 是否生成err*.log:false
+
 增加 /config/default.yaml
 ```
 logger:level: debug
