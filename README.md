@@ -14,7 +14,8 @@ logger.error(new Errro('error test'));
 
 增加 /config/default.yaml
 ```
-logger:level: debug
-out: /var/log
-errDivde: true
+logger:
+ level: debug
+ out: /var/log
+ errDivde: true
 ```
